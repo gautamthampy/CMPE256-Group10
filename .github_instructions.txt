@@ -1,0 +1,44 @@
+# GitHub Setup Instructions
+
+## Initialize and Push to GitHub
+
+1. Create repository on GitHub:
+   - Go to https://github.com/new
+   - Name: CMPE_256_Final_Project (or your choice)
+   - Keep it private or public
+   - Don't initialize with README (we have one)
+
+2. Connect and push:
+   ```bash
+   cd /Users/alshamams/Documents/CMPE_256_FINAL_PROJECT
+   
+   # Initialize (already done)
+   # git init
+   
+   # Add all files
+   git add .
+   
+   # Commit
+   git commit -m "Initial commit: Complete recommender system with 6 algorithms"
+   
+   # Add your GitHub repo as remote (replace YOUR_USERNAME)
+   git remote add origin https://github.com/YOUR_USERNAME/CMPE_256_Final_Project.git
+   
+   # Push
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. Verify on GitHub:
+   - Check that all files are uploaded
+   - README.md should display nicely
+   - Share the link in your report
+
+## Alternative: If you want to push later
+
+Just keep working locally. When ready:
+```bash
+git add .
+git commit -m "Your commit message"
+git push
+```
