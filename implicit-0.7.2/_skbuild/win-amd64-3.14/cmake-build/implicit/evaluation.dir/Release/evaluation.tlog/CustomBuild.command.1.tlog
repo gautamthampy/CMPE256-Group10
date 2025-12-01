@@ -1,0 +1,20 @@
+^C:\USERS\GAUTA\CODE\CMPE256-GROUP10\IMPLICIT-0.7.2\_SKBUILD\WIN-AMD64-3.14\CMAKE-BUILD\CMAKEFILES\7D82BBBA20BACDBF43643A2EE40F2A2C\EVALUATION.CXX.RULE
+setlocal
+C:\Users\gauta\Code\CMPE256-Group10\.venv\Scripts\cython.exe --cplus --include-dir C:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2/. --include-dir C:/Users/gauta/AppData/Local/Python/pythoncore-3.14-64/Include --directive always_allow_keywords=True,binding=True,embedsignature=True,language_level=3 C:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2/implicit/evaluation.pyx --output-file C:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2/_skbuild/win-amd64-3.14/cmake-build/implicit/evaluation.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GAUTA\CODE\CMPE256-GROUP10\IMPLICIT-0.7.2\IMPLICIT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2 -BC:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2/_skbuild/win-amd64-3.14/cmake-build --check-stamp-file C:/Users/gauta/Code/CMPE256-Group10/implicit-0.7.2/_skbuild/win-amd64-3.14/cmake-build/implicit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

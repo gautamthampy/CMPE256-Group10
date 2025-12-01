@@ -1,0 +1,10 @@
+^C:\USERS\GAUTA\CODE\CMPE256-GROUP10\IMPLICIT-0.7.2\_SKBUILD\WIN-AMD64-3.14\CMAKE-BUILD\CMAKEFILES\30007171633EBC6311C0F5CC50661495\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

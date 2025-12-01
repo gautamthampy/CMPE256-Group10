@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\gauta\Code\CMPE256-Group10\implicit-0.7.2\_skbuild\win-amd64-3.14\cmake-build\implicit\cpu\_als.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gauta\Code\CMPE256-Group10\implicit-0.7.2\_skbuild\win-amd64-3.14\cmake-build\CMakeFiles\534935232cd7e66cdce6b4f6c91ba16a\_als.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\gauta\Code\CMPE256-Group10\implicit-0.7.2\implicit\cpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ADD0D03B-95E6-3EDF-8715-8F7FF620E1E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{007FF23C-0F7D-3A4E-B314-98DD52E11505}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
