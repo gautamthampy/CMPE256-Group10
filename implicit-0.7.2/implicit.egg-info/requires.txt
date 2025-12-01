@@ -1,4 +1,0 @@
-numpy>=1.17.0
-scipy>=0.16
-tqdm>=4.27
-threadpoolctl
